@@ -7,4 +7,5 @@ gcc main.c hello.c -o main
 
 
 Надо:
+
 1 - Изучить как строятся build файлы
