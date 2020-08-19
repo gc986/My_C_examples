@@ -6,6 +6,5 @@
 gcc main.c hello.c -o main
 
 
-Надо:
-
+Надо:<br>
 1 - Изучить как строятся build файлы
