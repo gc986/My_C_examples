@@ -10,4 +10,4 @@ gcc main.c hello.c -o main
 
 
 Надо:<br>
-1 - Изучить как строятся build файлы<br>
+1 - Изучить как строятся make файлы (https://habr.com/ru/post/155201/)<br>
