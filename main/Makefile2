@@ -1,0 +1,17 @@
+# Флаги компиляции
+CFLAGS=-c -Wall
+
+# Главная цель
+all: main
+
+main: main.o hello.o
+	gcc main.o hello.o -o main
+
+hello.o:
+	gcc $(CFLAGS) hello.c
+
+main.o:
+	gcc $(CFLAGS) main.c
+
+clean:
+	rm -rf *.o main
