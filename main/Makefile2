@@ -4,11 +4,14 @@ CFLAGS=-c -Wall
 # Главная цель
 all: main
 
-main: main.o hello.o
-	gcc main.o hello.o -o main
+main: main.o hello.o qsort.o
+	gcc main.o hello.o qsort.o -o main
 
 hello.o:
 	gcc $(CFLAGS) hello.c
+
+qsort.o:
+	gcc $(CFLAGS) qsort.c
 
 main.o:
 	gcc $(CFLAGS) main.c
